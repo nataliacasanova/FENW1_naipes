@@ -1,0 +1,32 @@
+header .row {
+    text-align: left;
+}
+
+header {
+    position: relative;
+    background-color: #f08408a6;
+}
+
+#lista li {
+    display: inline;
+}
+
+#lista img {
+    margin-left: 2px;
+}
+
+.container {
+    height: calc(100vh - 72px);
+}
+
+.main .row {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(255, 218, 170);
+    border: 1px solid;
+}

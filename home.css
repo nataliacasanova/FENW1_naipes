@@ -2,8 +2,7 @@ header .row {
     text-align: left;
 }
 
-header {
-    position: relative;
+.navbar {
     background-color: #f08408a6;
 }
 
@@ -29,4 +28,12 @@ header {
     text-align: center;
     background-color: rgb(255, 218, 170);
     border: 1px solid;
+}
+
+.navbar-toggler-icon {
+    background-image: url(assets/menu.png);
+}
+
+a {
+    color: black;
 }

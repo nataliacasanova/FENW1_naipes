@@ -31,7 +31,7 @@ header .row {
 }
 
 .navbar-toggler-icon {
-    background-image: url(assets/menu.png);
+    background-image: url(../assets/img/menu.png);
 }
 
 a {

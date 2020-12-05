@@ -1,39 +1,78 @@
-header .row {
-    text-align: left;
-}
+    header .row {
+        text-align: left;
+    }
+    
+    .navbar {
+        background-color: #f08408a6;
+    }
+    
+    #lista li {
+        display: inline;
+    }
+    
+    #lista img {
+        margin-left: 2px;
+    }
+    
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    #container_center {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 80px;
+        padding-top: 40px;
+    }
+    
+    .card {
+        /* text-align: center; */
+        background-color: rgb(255, 218, 170);
+        border: 1px solid;
+    }
 
-.navbar {
-    background-color: #f08408a6;
-}
+    .card-body{
+        text-align: center;
+    }
+    
+    .navbar-toggler-icon {
+        background-image: url(../assets/img/menu.png);
+    }
+    
+    a {
+        color: black;
+    }
+    
+    footer {
+        background-color: cornflowerblue;
+    }
+    
+    .card h1 {
+        text-align: left;
+        padding: 3px;
+    }
+    
+    #container_game {
+        height: 100%;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    
+    #box {
+        border: 1px solid;
+        text-align: center;
+        background-color: rgb(255, 218, 170);
+    }
+    
+    .container {
+        padding-bottom: 80px;
+    }
 
-#lista li {
-    display: inline;
-}
-
-#lista img {
-    margin-left: 2px;
-}
-
-.container {
-    height: calc(100vh - 72px);
-}
-
-.main .row {
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.card {
-    text-align: center;
-    background-color: rgb(255, 218, 170);
-    border: 1px solid;
-}
-
-.navbar-toggler-icon {
-    background-image: url(../assets/img/menu.png);
-}
-
-a {
-    color: black;
-}

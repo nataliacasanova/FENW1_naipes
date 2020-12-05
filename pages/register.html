@@ -1,29 +1,42 @@
 <div class="container">
-    <div class="row">
+    <div class="row" id="container_center">
         <div class="col-md-6 col-8 card">
-            <form>
+            <h1>Registro</h1>
+            <form class="needs-validation" id="register-form" novalidate>
                 <div class=" form-group row">
                     <label for="inputName" class="col-sm-4 col-form-label">Usuario: </label>
                     <div class="col-sm-8 pt-3">
-                        <input type="text" class="form-control" id="inputName" placeholder="Identificador de usuario">
+                        <input type="text" class="form-control" id="inputName" placeholder="Identificador de usuario" required>
+                        <div class="invalid-feedback">
+                            Please choose a username
+                        </div>
                     </div>
                 </div>
                 <div class=" form-group row">
                     <label for="inputEmail" class="col-sm-4 col-form-label">Correo: </label>
                     <div class="col-sm-8 pt-2">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email
+                        </div>
                     </div>
                 </div>
                 <div class=" form-group row">
                     <label for="inputPassword" class="col-sm-4 col-form-label">Clave: </label>
                     <div class="col-sm-8 pt-2">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Clave">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Clave" required>
+                        <div class="invalid-feedback">
+                            Please choose a valid password
+                        </div>
                     </div>
                 </div>
                 <div class=" form-group row">
                     <label for="inputRepeatPassword" class="col-sm-4 col-form-label">Repita la clave:  </label>
                     <div class="col-sm-8 pt-2">
-                        <input type="password" class="form-control" id="inputRepeatPassword" placeholder="Repita la clave">
+                        <input type="password" class="form-control" id="inputRepeatPassword" placeholder="Repita la clave" required>
+                        <div class="invalid-feedback">
+                            The password don't match
+                        </div>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -32,6 +45,8 @@
                     </div>
                 </div>
             </form>
+
+            <script src="../scripts/register.js"></script>
         </div>
     </div>
 </div>

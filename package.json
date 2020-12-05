@@ -5,6 +5,8 @@
   "main": "main.js",
   "dependencies": {
     "bootstrap-icons": "^1.1.0",
+    "browser": "^0.2.6",
+    "browser-sync": "^2.26.13",
     "express": "^4.17.1"
   },
   "devDependencies": {},
